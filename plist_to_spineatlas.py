@@ -18,7 +18,7 @@ if __name__ == '__main__':
     sizeStr = metadata['size']
     sizeStr = sizeStr[1:len(sizeStr) - 1]
     atlasStr = textureName + '\n' + 'size:' + sizeStr + \
-        '\nforamt:RGBA8888\nfilter:Linear,Linear\nrepeat:none\n'
+        '\nforamt:RGBA8888\nfilter:Linear,Linear\nrepeat:none'
     texFormat = metadata['format']
     framesDic = info['frames']
     for frameKey in framesDic.keys():
